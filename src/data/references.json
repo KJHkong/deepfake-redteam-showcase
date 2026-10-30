@@ -1,0 +1,42 @@
+[
+  {
+    "method": "inswapper",
+    "name": "InSwapper",
+    "title": "Official Implementation / Model Reference",
+    "authors": "InsightFace contributors (implementation)",
+    "venue": "Independent paper not confirmed",
+    "repo": "https://github.com/deepinsight/insightface/tree/master/examples/in_swapper",
+    "idea": "身份条件的换脸实现；本框架使用其原生对齐与回贴路径。未将其他换脸论文归为InSwapper的独立论文。"
+  },
+  {
+    "method": "simswap",
+    "name": "SimSwap",
+    "title": "SimSwap: An Efficient Framework For High Fidelity Face Swapping",
+    "authors": "Renwang Chen, Xuanhong Chen, Bingbing Ni, Yanhao Ge",
+    "venue": "ACM Multimedia 2020; arXiv posted 2021",
+    "paper": "https://arxiv.org/abs/2106.06340",
+    "repo": "https://github.com/neuralchen/SimSwap",
+    "idea": "通过身份特征注入完成换脸，同时约束目标属性；作为双链路中的一种Swapping Generator。"
+  },
+  {
+    "method": "blendface",
+    "name": "BlendFace",
+    "title": "BlendFace: Re-designing Identity Encoders for Face-Swapping",
+    "authors": "Kaede Shiohara, Xingchao Yang, Takafumi Taketomi",
+    "venue": "ICCV 2023",
+    "paper": "https://arxiv.org/abs/2307.10854",
+    "repo": "https://github.com/mapooon/BlendFace",
+    "idea": "通过混合图像训练身份编码器以减少身份与属性耦合；当前集成使用官方换脸生成和学习到的alpha进行融合回贴。"
+  },
+  {
+    "method": "liveportrait_static",
+    "name": "LivePortrait",
+    "title": "LivePortrait: Efficient Portrait Animation with Stitching and Retargeting Control",
+    "authors": "Jianzhu Guo, Dingyun Zhang, Xiaoqiang Liu, Zhizhou Zhong, Yuan Zhang, Pengfei Wan, Di Zhang",
+    "venue": "arXiv 2024; revised 2025",
+    "paper": "https://arxiv.org/abs/2407.03168",
+    "repo": "https://github.com/KlingAIResearch/LivePortrait",
+    "project": "https://liveportrait.github.io/",
+    "idea": "使用隐式关键点、stitching与retargeting控制肖像；当前框架复用数值眼口和绝对yaw控制，执行静态单图编辑，英文动作描述仅为元数据。"
+  }
+]
